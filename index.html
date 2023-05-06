@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siboniseni Kasa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b002619082.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logoa.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+    
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Software Engineer</p>
+            <h1>Hi, I'm <span>Siboniseni</span><br>Kasa From South Africa</h1>
+        </div>
+    </div>
+</div>
+<!---------------------------About------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                    <img src="images/aboutme.png">
+            </div>
+            <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-paragraph">Programming and Web development is <span>Art</span>. I am a Fullstack Software Engineer whose looking at the Tech world
+                        from a former Medical Scientist's eyes.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Software Engineer</span><br>Designing interactive Web/Applications</li>
+                            <li><span>Frontend development</span><br>Web app development</li>
+                            <li><span>Backend developmen</span><br>backend programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Harvard University Edx</span><br>CS50 course & Web development course</li>
+                            <li><span>ALX Africa</span><br>Full Stack Software Engineering</li>
+                            <li><span>University of KwaZulu Natal</span><br>Bachelor of Medcal Sciences hons</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>My Dj Project</span><br>Four months programming project, using HTML, css and JavaScript</li>
+                            <li><span>Project 2</span><br>full details and duration</li>
+                            <li><span>SA Path Laboratories</span><br>three years working as a Medical Scientist</li>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------services------------------ -->
+
+
+
+<!---------------------------portfolio------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-link">
+            <div class="project">
+                <img src="images/taayy.jpg">
+                <div class="layer">
+                    <h3>taayy</h3>
+                    <p>This Application allow users to upload their favourite songs either from their devices
+                        or online and play them at a their favourite tempos (slow it down). This app also have
+                        a mix my playlist feature, which mix uploaded songs in a random order like a club Dj would
+                        do.</p>
+                        <a href="#">Project Link here</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/todo.jpg">
+                <div class="layer">
+                    <h3>Todo App</h3>
+                    <p>This Application allow users to upload their favourite songs either from their devices
+                        or online and play them at a their favourite tempos (slow it down). This app also have
+                        a mix my playlist feature, which mix uploaded songs in a random order like a club Dj would
+                        do.</p>
+                        <a href="#">Project Link here</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/playmoney.jpg">
+                <div class="layer">
+                    <h3>Play Money App</h3>
+                    <p>This Application allow users to upload their favourite songs either from their devices
+                        or online and play them at a their favourite tempos (slow it down). This app also have
+                        a mix my playlist feature, which mix uploaded songs in a random order like a club Dj would
+                        do.</p>
+                        <a href="#">Project Link here</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------------contact------------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>siboniseni.kasa@outlook.com</p>
+                <p><i class="fa-solid fa-phone"></i>0719557911</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/Siboniseni_Kasa"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=">https://www.instagram.com/kasa_gileni/"<i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008773470448"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/siboniseni-kasa/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Siboniseni kasa. resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw7ULD1tWvTQoYDOjOOikFjfTuNw5OZfzovVAcx3SHDS7n7bS1QvPUUoENGIiuaFg_0eg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
