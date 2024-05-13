@@ -7,7 +7,7 @@ This is a simple portfolio website showcasing my projects and skills. It include
 - HTML5
 - CSS3 
 - JavaScript 
-- GitHub Pages or another hosting service (optional for deployment)
+- GitHub Pages or another hosting service 
 
 ## Link to ortfolio Website
 https://siboniseni.github.io/
