@@ -190,7 +190,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
-    color: rgb(147, 29, 11);
+ 
 }
 .project{
     border-radius: 10px;
