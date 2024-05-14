@@ -246,7 +246,11 @@ nav ul li a:hover::after{
 .btn:hover{
     background: rgb(3, 11, 169);
 }
-
+.project-link-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(235, 15, 11);
+}
 <!---------------------------contact------------------ -->
 
 .contact-left{
